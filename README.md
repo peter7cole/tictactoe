@@ -1,3 +1,15 @@
+# Tic Tac Toe
+
+**Author** Peter Cole  
+**Version** 1.0.0
+
+## Overview
+
+- React app for a tic tac toe game running a win detection algorithm
+- Pair-programmed algorithm with [Chris Dubois](https://github.com/chrisadubois)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
