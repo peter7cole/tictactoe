@@ -1,3 +1,5 @@
+// argument should be any square two dimensional array
+
 const detectTicTacToeWin = board => {
 	let iv1m = true; // initial value match 1 diagonal
 	let iv2m = true; // initial  value match 2 diagonal
@@ -43,3 +45,5 @@ const detectTicTacToeWin = board => {
 	// console.log(iv1m, iv2m, ivhm, ivvm);
 	return iv1m || iv2m || ivhm || ivvm;
 };
+
+export default detectTicTacToeWin;
