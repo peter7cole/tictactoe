@@ -1,7 +1,14 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 
-export default class Grid extends Component {
-	render() {
-		return <div></div>;
-	}
-}
+const emptyCell = {
+	on: false,
+	owner: '',
+};
+
+const Grid = () => {
+	const initialCells = Array.from({ length: 9 }, () => emptyCell);
+	const [cells, setCells] = useState(initialCells);
+	return <div></div>;
+};
+
+export default Grid;
